@@ -46,3 +46,11 @@ Things like strong and em are examples of semantic markup, which are useful for 
 - <ins> is used to show content inserted in a document whereas <del> is usually strikedthrough. <s> is a strikethrough but indicates elements that are no longer accurate or relevant. 
 
 #### HTML Lists
+- Ordered lists involve each item being numbered. 
+    - Uses the <ol> element. 
+    - Each item in the list is placed between <li> </li>.
+- Unordered lists are lists that begin with a bullet point.
+    - Uses the <ul> tag. 
+- Definition lists are made up of a set of terms along with definitions for those terms.   
+    - Uses the <dl> tag and has <dt> </dt> to define a term  being defined. The <dd> </dd> tags. 
+    - For example <dt> Sashimi </dt> could have <dd> Sliced raw fish </dd> underneath it. 
