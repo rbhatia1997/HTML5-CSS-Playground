@@ -38,3 +38,11 @@ Things like strong and em are examples of semantic markup, which are useful for 
 - <strong> will indicate strong importance. 
 - <em> shows emphasis.  
 - <blockquote> involves longer quotes that take up an entire paragraph. 
+- <q> is used for shorter quotes within a paragraph. 
+- <abbr> is used for an abbreviation or acronym. 
+- <cite> is used for references to a piece of work. 
+- <dfn> is the definition of some new terminology. 
+- <address> refers to the contact info of the author of the page.
+- <ins> is used to show content inserted in a document whereas <del> is usually strikedthrough. <s> is a strikethrough but indicates elements that are no longer accurate or relevant. 
+
+#### HTML Lists
