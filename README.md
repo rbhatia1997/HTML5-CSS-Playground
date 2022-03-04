@@ -54,3 +54,16 @@ Things like strong and em are examples of semantic markup, which are useful for 
 - Definition lists are made up of a set of terms along with definitions for those terms.   
     - Uses the <dl> tag and has <dt> </dt> to define a term  being defined. The <dd> </dd> tags. 
     - For example <dt> Sashimi </dt> could have <dd> Sliced raw fish </dd> underneath it. 
+
+#### Images
+- <img> is the tag where you use src to identify where to find the image file. 
+- <alt> is a text description of the image file. 
+- <figure> lets you encapsulate images/their caption. 
+- <figcaption> allows you to caption images. 
+- You can specify height/width in the img tag itself, but use CSS.
+- Images for the web should be saved a resolution of 72 ppi.
+
+#### Tables
+- <table> is used to create a table. Written row by row. 
+- <tr> indicates the start of each row. Table row. 
+- <td> indicates each cell of a table. Ex. a number. 
