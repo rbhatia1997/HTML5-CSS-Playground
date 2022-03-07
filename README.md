@@ -83,3 +83,4 @@ Things like strong and em are examples of semantic markup, which are useful for 
 - In HTML-version-3.0, there's many examples of how to implement CSS.
 - A text element is an element that runs inside a line of text.
 - You can use the <span> element, assign it a class, and give it styling.
+- Void elements don't need a closing tag. <link> enables you to load CSS from an external file.
