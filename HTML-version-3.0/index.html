@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Playground</title>
+  </head>
+
+  <style>
+    .subscribe {
+      background-color: rgb(200, 0, 0);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 100px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 0.15s;
+      vertical-align: top;
+    }
+    /* :active works when a user clicks on the button. */
+    .subscribe:hover {
+      opacity: 0.8;
+    }
+    .subscribe:active {
+      opacity: 0.4;
+    }
+
+    .join {
+      background-color: white;
+      border-color: rgb(8, 86, 181);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2px;
+      color: rgb(41, 118, 211);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      vertical-align: top;
+
+      /* height: 36px;
+      width: 62px; */
+      cursor: pointer;
+      margin-right: 8px;
+      transition: background-color 0.15s, color 0.15s;
+    }
+
+    .join:hover {
+      background-color: rgb(41, 118, 211);
+      color: white;
+    }
+
+    .join:active {
+      opacity: 0.7;
+    }
+    .tweet {
+      background-color: rgb(2, 158, 255);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 74px;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+      vertical-align: top;
+    }
+    .tweet:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+
+  <body>
+    <button class="subscribe">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="tweet">Tweet</button>
+    <p class="ex-link">
+      <a href="text.html"> Click to see text examples!</a>
+    </p>
+  </body>
+</html>
