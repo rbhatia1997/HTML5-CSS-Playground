@@ -27,6 +27,7 @@ There are ways to validate your website for both CSS and HTML.
 - The head element contains information about the page (rather than shown info).
 - The title is what's shown in the top of the browser/tab of the page.
 - There's structural (elements to describe headings/paragraphs) and semantic markup (extra info like emphasis or identifying quotes).
+- We use a nested layout philosophy (everthing can be thought of horizontal and vertical layouts) when designing sites.
 
 ### HTML Code Snippets
 
@@ -46,6 +47,11 @@ Things like strong and em are examples of semantic markup, which are useful for 
 - <dfn> is the definition of some new terminology.
 - <address> refers to the contact info of the author of the page.
 - <ins> is used to show content inserted in a document whereas <del> is usually strikedthrough. <s> is a strikethrough but indicates elements that are no longer accurate or relevant.
+- <input> is how you handle inputs from users (e.g., text box or checkbox).
+
+Block elements can take up a whole line; in-line block elements take up only as much space as it needs. In-line elements are just text elements.
+
+- A <div> element stands for division, but essentially it's a box. It can contain any other element inside. They are meant to be used as containers for content.
 
 #### HTML Lists
 
