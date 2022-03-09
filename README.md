@@ -92,6 +92,7 @@ Block elements can take up a whole line; in-line block elements take up only as 
 - You can group related controls using the <fieldset> element. The <legend> attribute can assist with a caption to identify the purpose of the form. 
 - In HTML5, validation is left to the browser -> you use the required attribute.
 - Type can also be a date, URL, email, search, etc. Placeholder attribute holds the text you'd like to store. 
+- These comments won't be visible in browser if you do it like this: <!-- -->. 
 
 ## Notes on CSS
 
