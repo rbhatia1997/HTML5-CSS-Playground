@@ -78,6 +78,17 @@ Block elements can take up a whole line; in-line block elements take up only as 
 - <table> is used to create a table. Written row by row.
 - <tr> indicates the start of each row. Table row.
 - <td> indicates each cell of a table. Ex. a number.
+- You can use the CSS element row/colspan to edit what row/columns look like.
+- Long tables will use the following: <thead>, <tbody>, and <tfoot>
+
+#### Forms 
+- Using the <form> element and carries an action attribute with a method and id. Every form element requires this action, which value is the URL that will get the information on the page when a form is submitted. 
+- Method just refers to GET or POST. Type attribute indicates what kind of input is being created (e.g., text, password). 
+- The name tag indicates the name of the input (e.g., could say password). The size and maxlength attributes can be carried. 
+- <textarea> is used for multi-line text input. 
+- Input type radio is used for buttons. Type checkbox is for checkboxes. Select is for a drop down list. You can have multiple selects as well w/ multiple attribute.
+- The type=file input allows you upload a file; you must have a POST method. 
+- Submit type is used to send a form to the server. You can even use an image for the submit button via specifying with the src attribute.
 
 ## Notes on CSS
 
