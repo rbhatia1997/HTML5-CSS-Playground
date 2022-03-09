@@ -89,6 +89,9 @@ Block elements can take up a whole line; in-line block elements take up only as 
 - Input type radio is used for buttons. Type checkbox is for checkboxes. Select is for a drop down list. You can have multiple selects as well w/ multiple attribute.
 - The type=file input allows you upload a file; you must have a POST method. 
 - Submit type is used to send a form to the server. You can even use an image for the submit button via specifying with the src attribute.
+- You can group related controls using the <fieldset> element. The <legend> attribute can assist with a caption to identify the purpose of the form. 
+- In HTML5, validation is left to the browser -> you use the required attribute.
+- Type can also be a date, URL, email, search, etc. Placeholder attribute holds the text you'd like to store. 
 
 ## Notes on CSS
 
