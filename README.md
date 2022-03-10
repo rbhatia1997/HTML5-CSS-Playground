@@ -52,6 +52,8 @@ Things like strong and em are examples of semantic markup, which are useful for 
 Block elements can take up a whole line; in-line block elements take up only as much space as it needs. In-line elements are just text elements.
 
 - A <div> element stands for division, but essentially it's a box. It can contain any other element inside. They are meant to be used as containers for content.
+- <iframe> is a little window that has been cut into the page; in that window you are able to see another page (inline frame). It has a src, height, width attributes. 
+- In the meta tag, you can indicate things like robots (how search engines deal with the site), author, pragma (prevent caching), and expiration.
 
 #### HTML Lists
 
