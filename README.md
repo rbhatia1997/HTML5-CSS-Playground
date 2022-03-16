@@ -108,3 +108,4 @@ Block elements can take up a whole line; in-line block elements take up only as 
 - A text element is an element that runs inside a line of text.
 - You can use the <span> element, assign it a class, and give it styling.
 - Void elements don't need a closing tag. <link> enables you to load CSS from an external file.
+- In CSS, you can use ":hover, :active, and :focus" to refer to changing the appearance of elements when a user is interacting with them. 
