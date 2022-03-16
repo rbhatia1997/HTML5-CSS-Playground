@@ -109,3 +109,9 @@ Block elements can take up a whole line; in-line block elements take up only as 
 - You can use the <span> element, assign it a class, and give it styling.
 - Void elements don't need a closing tag. <link> enables you to load CSS from an external file.
 - In CSS, you can use ":hover, :active, and :focus" to refer to changing the appearance of elements when a user is interacting with them. 
+
+## Notes on Javascript
+
+- Browser receives a page as HTML code. It creates a model of the page and stores it in memory. It uses a rendering engine to show the page on screen. Major browsers use a JavaScript interpreter to translate instructions such that a computer can follow them. 
+- In the HTML, when linking JS, you use the following syntax: <script src="js/add-content.js"> </script>. 
+- document.write() writes content into the document. 
